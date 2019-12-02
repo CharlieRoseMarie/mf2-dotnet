@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>Mf2_DotNet</RootNamespace>
+        <Authors>Charlotte Allen</Authors>
+        <Description>Extends the HtmlHelper to include utilities for creation Microformats 2 markup.</Description>
+        <RepositoryUrl>https://github.com/CharlieRoseMarie/mf2-dotnet</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <AssemblyOriginatorKeyFile>Charlotte Allen.snk</AssemblyOriginatorKeyFile>
+        <PublicSign>false</PublicSign>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\.gitignore">
+        <Link>.gitignore</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
